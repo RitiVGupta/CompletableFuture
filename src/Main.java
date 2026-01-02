@@ -1,5 +1,4 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+//This is my demo program to show CompletableFuture
 void main() {
 
     CompletableFuture<String> futureFirstName =  CompletableFuture.supplyAsync(this::getFirstName);
